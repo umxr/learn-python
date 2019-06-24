@@ -14,6 +14,7 @@ This must be run prior to working in the director. You’ll know if the environm
 - type(param) => returns the type of the param
 - dir(param) => returns all the methods available on the param
 - print(param) => prints the param to the console
+- help(param) => lists helpful information about that param
 
 **Variables**
 
