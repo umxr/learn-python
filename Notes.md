@@ -2,7 +2,7 @@
 
 In your working directory, you need to make sure that you create a virtual environment.
 Run this command to do so
-`python3 -m vena env`
+`python3 -m venv env`
 
 To instantiate the environment, run the following command
 `source env/bin/activate`
