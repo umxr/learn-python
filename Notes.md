@@ -63,3 +63,27 @@ def greeting(name):
   greeting = "Hello "
   return greeting + name
 `
+
+**Function Arguements**
+
+- function arguements can have fallback defaul arguements. default arguements always come after those that are required
+- if a functions arguemnts all have fallback, they can be passed in any order as you want. the reason being is that they are labelled
+- 
+
+default arguement examples
+
+`
+def gretting(name, greeting="Hello"):
+  print(f"{greeting}, {name})
+`
+
+
+`
+def foo(a, b=10):
+  return a + b
+`
+the following function calls return the same value, just a slightly different way to call them. 
+Both of them will return 3.
+
+` foo(1, b=2) `
+` foo(1, 2) `
