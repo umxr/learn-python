@@ -34,3 +34,32 @@ This must be run prior to working in the director. You’ll know if the environm
 - Similar to JS
 - “”” … … … “” => long string. When using the REPL, … Is basically adding a new line of information. You need to close with “”” for the long string to end
 - F”Hello, {variable}” => basically the same as template strings in js.
+
+
+**Functions**
+
+- def name() => defines a function called name
+- In python we dont use brackets to show function block, instead we use indentation
+
+Basic function examples:
+
+`
+def print_first_name(name):
+  print(f"Hello {name})
+`
+
+`
+def my_age(age):
+  return 22`
+`
+
+`
+def add_numbers(a,b):
+  return a + b
+`
+
+`
+def greeting(name):
+  greeting = "Hello "
+  return greeting + name
+`
