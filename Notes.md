@@ -82,6 +82,7 @@ def gretting(name, greeting="Hello"):
 def foo(a, b=10):
   return a + b
 `
+
 the following function calls return the same value, just a slightly different way to call them. 
 Both of them will return 3.
 
