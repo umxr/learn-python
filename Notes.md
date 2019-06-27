@@ -99,6 +99,9 @@ bracket notation is used to update an item. the only difference is that assignme
 - "str" in [arr] => returns a boolean depending on if the "str" is in the array
 - [arr].index(param) => returns the index of the param
 - [arr].count(param) => counts upto the passed param in the array and returns the index
+- [arr].remove(param) => removes the passed param from the array. if there are duplicate values. the remove method will only remove the first instance of it. if you try to remove an element that doesnt exist in the array, you will get a value error instead of an index error
+- [arr].pop() => removes the last element in the array and returns the element that was just removed
+- [arr].pop(index) => remove the item in the passed index and returns the element that was just removed - trying to remove an element at an index which doesnt exist will give you an index error
 
 **Common Gotchas**
 
