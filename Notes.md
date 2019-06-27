@@ -107,3 +107,24 @@ bracket notation is used to update an item. the only difference is that assignme
 
 - creating a list with a missing comma will result in a syntax error
 - forgetting to close a list will also result in a syntax error
+
+**Tuples**
+
+tuples are a lightweight collection of related items. tuples are immutable. once the tuple has been created, the items cannot be changed. useful for things like containing a snapshot of data.
+
+`a = () => creates a tuple and is assigned to 'a'`
+
+ways of creating a tuple:
+
+`a = 1,2`
+`a = (1,2)`
+
+- tuple items can be accessed the same way you try to access lists. (bracket notation)
+- trying to mutate an item in the tuple will return a type error
+
+**Unpacking**
+
+this is basically the same as js destructuring
+
+`me = ("umar",22,"developer)`
+`name, age, job = me`
