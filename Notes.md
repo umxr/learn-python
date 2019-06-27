@@ -74,3 +74,33 @@ Both of them will return 3.
 `def add_numbers(a,b): return a + b`
 
 `def greeting(name, greeting="Hello"): print(f"{greeting}, {name}")`
+
+**Lists**
+
+These are pretty much the equivalent of arrays in js
+retain the order of the items in the list
+bracket notation can be used to access items in the array similar to javascript
+trying to access an item at an index which doesnt exist will return an index error
+bracket notation is used to update an item. the only difference is that assignment is used once you have chosen the index
+
+- `[1]`
+- `list(1)`
+- `["person 1", "person 2"]`
+
+**Methods**
+
+- len() => takes in a param and returns the length of the parameter
+- sorted() => takes in a param and returns a sorted version of the array without effecting the param. the returned value is a clone of the param. the sorted command also takes in a second parameter which allows you to reverse the order of the list.
+- [arr].sort() => modifies the original array and sorts the array
+- [arr].reverse() => modifies the original array and reverses the array.
+- [arr].append(param) => appends the past parameter to the array
+- [arr].insert(pos,item) => adds an item to the specified position in an array
+- [arr1].extend([param]) => concatenates the array param to the original array. modifies the original array
+- "str" in [arr] => returns a boolean depending on if the "str" is in the array
+- [arr].index(param) => returns the index of the param
+- [arr].count(param) => counts upto the passed param in the array and returns the index
+
+**Common Gotchas**
+
+- creating a list with a missing comma will result in a syntax error
+- forgetting to close a list will also result in a syntax error
