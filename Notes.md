@@ -128,3 +128,30 @@ this is basically the same as js destructuring
 
 `me = ("umar",22,"developer)`
 `name, age, job = me`
+
+if the number of unpacked variables dont match the number of items in the tuples. you will get a value error.
+if you want to ignore a certain value when unpacking, be sure to use the `_` instead of passing a variable name
+
+**Sets**
+
+a collection a data that allows you to store other data types which are immutable and is unordered. you wont be able to reference data stored in a set like arrays or tuples. searching for items in sets is a very fast operation. `set()` will create an empty set. Sets cannot have duplicate values. if you create a set with a duplicate value (Case sensitive), they will automatically get removed during compile time. sets can contain other data types like string, int, float, lists etc. trying to access an item in the set using bracket notation will results in a type error.
+
+**Methods**
+
+- len(param) => returns the length of the set
+- my_set.add(param) => will add the param to the set
+- my_set.discard(param) => will discard the param from the set. if you try to discard an item that no longer exists in the set, nothing will happen. no error, nothing
+- my_set.remove(param) => will remove the param from the set. if you try to remove an item that no longer exists in the set, you will get a key error
+- my_set.update(my_second_set) => will combine the two sets together. the update function expects a sequence, if you were to pass a string, you'll notice that the string is split up into a list of its individual characters.
+
+**Operations**
+
+you can use the in keyword to check if an item exists in your set
+
+`colours = {"Red", "Green". "Blue"}`
+`"Red" in colours => returns True`
+`"Orange in colours => returns False"`
+
+- Union => Merges set_1 and set_2 making sure to remove any duplicates
+- Intersection => Merges set_1 and set_2 with only items that appear in both sets
+- Difference => Merges set_1 and set_2 with only items that dont appear in both sets
